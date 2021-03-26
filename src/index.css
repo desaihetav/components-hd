@@ -1,0 +1,15 @@
+@import url("https://csshd.netlify.app/styles/index.css");
+@import url("http://127.0.0.1:5500/styles/index.css");
+/* @import url("https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"); */
+
+body {
+  margin: 0 auto;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

@@ -1,0 +1,7 @@
+.docContent {
+  position: absolute;
+  width: 100%;
+  max-width: 1280px;
+  top: 4rem;
+  overflow: hidden;
+}

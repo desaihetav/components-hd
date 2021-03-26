@@ -1,0 +1,19 @@
+.container {
+  margin: 2rem 1rem;
+  padding: 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: var(--color-background-1);
+}
+
+.header {
+  padding: 0 1rem;
+  background-color: white;
+  border-top: 1px solid rgba(0, 0, 0, 0);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
