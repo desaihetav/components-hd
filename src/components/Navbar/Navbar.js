@@ -16,9 +16,12 @@ export default function Navbar() {
         <button className="btn btn-ghost btn-icon" onClick={showSidebar}>
           <FiMenu />
         </button>
-        <Link to="/" className={`h-full row flex-center ml-auto mr-8`}>
+        <Link
+          to="/"
+          className={`h-full row flex-center ml-auto mr-8 ${styles.logoContainer}`}
+        >
           <img
-            className={`${styles.logo}`}
+            className={`${styles.logoImage}`}
             alt="Finsight Logo"
             src={finsightLogo}
           />
