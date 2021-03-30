@@ -1,0 +1,29 @@
+.home {
+  min-height: 100vh;
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.logo {
+  max-width: 10rem;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+.description {
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+
+.btnIcon {
+  font-size: 1.2rem;
+  transition: all 0.25s ease;
+}
+
+.cta:hover .btnIcon {
+  transform: translateX(0.5rem);
+}

@@ -1,5 +1,5 @@
-import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
-import { vscDarkPlus } from "react-syntax-highlighter/dist/esm/styles/prism";
+import SyntaxHighlighter from "react-syntax-highlighter";
+import { nightOwl } from "react-syntax-highlighter/dist/esm/styles/hljs";
 import styles from "./CodeSnippet.module.css";
 
 export default function CodeSnippet({ codeString }) {
@@ -8,7 +8,7 @@ export default function CodeSnippet({ codeString }) {
       <SyntaxHighlighter
         customStyle={{ padding: "4rem 1rem 1rem 1rem" }}
         language="javascript"
-        style={vscDarkPlus}
+        style={nightOwl}
       >
         {codeString}
       </SyntaxHighlighter>

@@ -1,5 +1,9 @@
 export const SidebarData = [
   {
+    title: "Home",
+    path: "/",
+  },
+  {
     title: "Getting Started",
     path: "/docs",
   },

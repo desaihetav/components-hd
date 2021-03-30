@@ -11,11 +11,15 @@
   font-size: 1.5rem;
   justify-content: start;
   align-items: center;
-  background-color: var(--color-background-1);
+  background-color: var(--color-background-3);
   border-bottom: 1px solid var(--color-primary-base-10);
 }
 
 .logo {
+  max-height: 75%;
+}
+
+.logoText {
   font-size: 1.25rem;
   font-weight: bold;
 }
@@ -23,7 +27,7 @@
 .navMenu {
   z-index: 1;
   width: 15rem;
-  background-color: var(--color-background-1);
+  background-color: var(--color-background-3);
   border-right: 1px solid var(--color-primary-base-10);
   height: calc(100vh - 4rem);
   display: flex;
@@ -47,28 +51,29 @@
   }
 }
 
-.navText {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 8px 0px 8px 16px;
-  list-style: none;
-  height: 60px;
+.navText,
+.navTextActive {
+  margin: 1rem;
 }
 
-.navText a {
+.navText a,
+.navTextActive a {
   text-decoration: none;
   color: inherit;
   width: 95%;
   height: 100%;
   display: flex;
   align-items: center;
-  padding: 0 16px;
+  padding: 0.5rem 1rem;
   transition: background-color 0.25s ease-in;
 }
 
 .navText a:hover {
-  background-color: var(--color-primary-base-10);
+  background-color: var(--color-primary-base-5);
+}
+
+.navTextActive {
+  background-color: var(--color-primary-base-5);
 }
 
 .navMenuItems {
