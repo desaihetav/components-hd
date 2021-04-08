@@ -82,7 +82,7 @@ export default function Modal() {
     },
   ];
   return (
-    <div>
+    <div className="w-full">
       <SectionHeader
         title="Modal"
         description="A modal is a popup window that is displayed on top of the current page. It's commonly used for confirmation boxes. Forms should not be put in modals."

@@ -525,7 +525,7 @@ export default function Card() {
     },
   ];
   return (
-    <div>
+    <div className="w-full">
       <SectionHeader
         title="Card"
         description="A Card is a UI design pattern that groups related information in a flexible-size container visually resembling a card."

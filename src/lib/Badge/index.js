@@ -42,7 +42,7 @@ export default function Badge() {
     },
   ];
   return (
-    <div>
+    <div className="w-full">
       <SectionHeader
         title="Badge"
         description="Badges are used to highlight an item's status for quick recognition."

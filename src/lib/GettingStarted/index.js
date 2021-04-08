@@ -34,7 +34,7 @@ export default function Modal() {
     },
   ];
   return (
-    <div>
+    <div className="w-full">
       <SectionHeader
         title="Get Started"
         description="Follow this steps to configure and get started with using FinsightCSS in your web dev projects"

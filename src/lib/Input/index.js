@@ -38,7 +38,7 @@ export default function Input() {
     },
   ];
   return (
-    <div>
+    <div className="w-full">
       <SectionHeader
         title="Input"
         description="Input is used to taking user input in a text, email or password field."

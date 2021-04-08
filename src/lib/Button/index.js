@@ -156,7 +156,7 @@ export default function Button() {
     },
   ];
   return (
-    <div>
+    <div className="w-full">
       <SectionHeader
         title="Button"
         description="The button is an essential element of any design. It's meant to look and behave as an interactive element of your page."

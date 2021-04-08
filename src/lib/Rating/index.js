@@ -45,7 +45,7 @@ export default function Modal() {
     },
   ];
   return (
-    <div>
+    <div className="w-full">
       <SectionHeader
         title="Ratings"
         description="Often denoted as stars, ratings indicate quality of a particular entity. Mostly used on eCommerce websites."

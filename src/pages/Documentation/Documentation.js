@@ -61,7 +61,7 @@ export default function Documentation() {
   return (
     <div className="flex flex-col">
       <Navbar />
-      <div className={styles.docContent}>
+      <div className={`${styles.docContent}`}>
         <Switch>
           {routes.map((route) => {
             return (

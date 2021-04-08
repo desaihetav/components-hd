@@ -213,7 +213,7 @@ export default function Avatar() {
     },
   ];
   return (
-    <div>
+    <div className="w-full">
       <SectionHeader
         title="Avatar"
         description="The Avatar component is used to represent a user, and displays the profile picture or Initials."

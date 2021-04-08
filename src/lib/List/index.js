@@ -314,7 +314,7 @@ export default function List() {
     },
   ];
   return (
-    <div>
+    <div className="w-full">
       <SectionHeader
         title="List"
         description="Badges are used to highlight an item's status for quick recognition."
